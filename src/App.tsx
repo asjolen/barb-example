@@ -18,7 +18,7 @@ const App = observer(() => {
 
   return (
     <BrowserRouter>
-      <div className={"page-wrapper"}>
+      <div className={"page-layout"}>
         <Routes>
           <Route path="/login" element={<BasicLoginPage />} />
           <Route path="/" element={<RouteProtectedComponent><BasicAuthorizedPage /></RouteProtectedComponent>} />
