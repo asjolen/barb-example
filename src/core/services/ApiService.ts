@@ -6,8 +6,7 @@ export class ApiService implements IApiService {
   getAccessTokenSilently: any;
   defaultHeaders: { "Content-Type": string; Authorization: string | null };
 
-  constructor(getAccessTokenSilently?: any) {
-    this.getAccessTokenSilently = getAccessTokenSilently ? getAccessTokenSilently : null;
+  constructor() {
     this.defaultHeaders = {
       "Content-Type": "application/json",
       "Authorization": null
