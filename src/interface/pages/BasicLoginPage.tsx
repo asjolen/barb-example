@@ -35,6 +35,8 @@ export const BasicLoginPage = observer(() => {
 
   return (
     <div>
+      Login to protected page:<br/>
+
       <button onClick={() => loginUser()}>Login</button>
 
       <br/>
